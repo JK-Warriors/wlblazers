@@ -1,0 +1,1116 @@
+---------------------------------------------------------------
+[ 2019-01-11T12:46:59+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004686s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.018685s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"__token__\":\"7c3e00abc206b70add1d01ecd3459a41\",\"username\":\"admin\",\"captcha\":\"3unu\"}' , '/ywyadmin/public/index.php/admin/index/login' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182019) [ RunTime:0.048520s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:47:19+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002279s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.025006s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001108s ]
+[ sql ] [ SQL ] UPDATE `yw_admin`  SET `loginfailure`=1,`updatetime`=1547182039  WHERE  `id` = 1 [ RunTime:0.091942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.019869s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"ef9baac2dc7fb96c6afc1a01a1058736\",\"username\":\"admin\",\"captcha\":\"v8pv\"}' , '/ywyadmin/public/index.php/admin/index/login' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182039) [ RunTime:0.035237s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:47:32+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003599s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.022193s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"__token__\":\"a6059abbf6f515f0720c3ad9e48ce7ad\",\"username\":\"admin\",\"captcha\":\"v8pv\"}' , '/ywyadmin/public/index.php/admin/index/login' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182052) [ RunTime:0.075527s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:47:41+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003072s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.031737s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"__token__\":\"15398ce3b2034b1afa50d96b35b4e4de\",\"username\":\"admin\",\"captcha\":\"bufd\"}' , '/ywyadmin/public/index.php/admin/index/login' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182060) [ RunTime:0.079330s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:47:47+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003723s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.028317s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.002167s ]
+[ sql ] [ SQL ] UPDATE `yw_admin`  SET `loginfailure`=0,`logintime`=1547182067,`token`='30b23d65-418f-4d76-9c53-818be78b8c0f',`updatetime`=1547182067  WHERE  `id` = 1 [ RunTime:0.070999s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.030300s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"6bbf269d1bb4cb0ad6519612a1fce0bc\",\"username\":\"admin\",\"captcha\":\"xrnj\"}' , '/ywyadmin/public/index.php/admin/index/login' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182067) [ RunTime:0.040996s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:47:48+08:00 ] 0.0.0.0 GET localhost/ywyadmin/public/index.php/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003964s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.027561s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.030883s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001810s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 1 ORDER BY `weigh` DESC [ RunTime:0.002741s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:47:48+08:00 ] 0.0.0.0 GET localhost/ywyadmin/public/index.php/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003617s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.028627s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.034598s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001892s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000951s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:48:15+08:00 ] 0.0.0.0 GET localhost/ywyadmin/public/index.php/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006264s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.035310s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.027500s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001188s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001066s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:50:26+08:00 ] 0.0.0.0 GET localhost/ywyadmin/public/index.php/admin/general/config?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035466s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.025807s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.023647s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_config` [ RunTime:0.021356s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_config` [ RunTime:0.002679s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.001787s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:50:48+08:00 ] 0.0.0.0 GET localhost/ywyadmin/public/index.php/admin/general/profile?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004132s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.030850s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.024612s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001190s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:50:48+08:00 ] 0.0.0.0 GET localhost/ywyadmin/public/index.php/admin/general/profile/index?sort=id&order=desc&offset=0&limit=10&_=1547182248436
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003650s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.025246s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001061s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.034035s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.028734s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin_log` WHERE  `admin_id` = 1 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin_log` WHERE  `admin_id` = 1 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001116s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:51:02+08:00 ] 0.0.0.0 GET localhost/ywyadmin/public/index.php/admin/index/logout
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003244s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.017596s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000802s ]
+[ sql ] [ SQL ] UPDATE `yw_admin`  SET `token`='',`updatetime`=1547182261  WHERE  `id` = 1 [ RunTime:0.085189s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:52:23+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002643s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.020207s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"__token__\":\"cdc847a125ba2c89f378acf74fbfbf6d\",\"username\":\"admin\",\"captcha\":\"dc1d\"}' , '/ywyadmin/public/index.php/admin/index/login' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182343) [ RunTime:0.080100s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:52:29+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003468s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.016651s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"__token__\":\"64c858c31d63996cee2928bf8f90cd52\",\"username\":\"admin\",\"captcha\":\"dc17\"}' , '/ywyadmin/public/index.php/admin/index/login' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182349) [ RunTime:0.051276s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:52:37+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003183s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"__token__\":\"018812088da5cf14b691c04aa9b83f1e\",\"username\":\"admin\",\"captcha\":\"dci7\"}' , '/ywyadmin/public/index.php/admin/index/login' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182357) [ RunTime:0.097750s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:52:46+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004463s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.029661s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"__token__\":\"cd95b8136783a27a3d5195cf1f3fe55a\",\"username\":\"admin\",\"captcha\":\"wyxu\"}' , '/ywyadmin/public/index.php/admin/index/login' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182366) [ RunTime:0.079064s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:52:50+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002507s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.018380s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"__token__\":\"7074457f062b946444b21d5665309902\",\"username\":\"admin\",\"captcha\":\"uyxu\"}' , '/ywyadmin/public/index.php/admin/index/login' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182370) [ RunTime:0.074925s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:53:04+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002432s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.018640s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"__token__\":\"1edfdbc757687e2c41c260a6c46f61e6\",\"username\":\"admin\",\"captcha\":\"5v0f\"}' , '/ywyadmin/public/index.php/admin/index/login' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182384) [ RunTime:0.044646s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:53:08+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003978s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.030082s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"__token__\":\"1ba8502217248c6141fcbbb715b94726\",\"username\":\"admin\",\"captcha\":\"5v8f\"}' , '/ywyadmin/public/index.php/admin/index/login' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182388) [ RunTime:0.079287s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:53:14+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003117s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.018902s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"__token__\":\"1c1c635921d5184a75c126f6ad623ca4\",\"username\":\"admin\",\"captcha\":\"5V0F\"}' , '/ywyadmin/public/index.php/admin/index/login' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182394) [ RunTime:0.039496s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:53:17+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002967s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.039159s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"__token__\":\"50a8d1de101a7ba170faee910e1df21a\",\"username\":\"admin\",\"captcha\":\"5V8F\"}' , '/ywyadmin/public/index.php/admin/index/login' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182397) [ RunTime:0.083499s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:53:22+08:00 ] 0.0.0.0 POST localhost/ywyadmin/public/index.php/admin/index/login
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002887s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.017901s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001269s ]
+[ sql ] [ SQL ] UPDATE `yw_admin`  SET `logintime`=1547182402,`token`='45e9e8fe-b35f-43de-b4f5-ba68d082e760',`updatetime`=1547182402  WHERE  `id` = 1 [ RunTime:0.080725s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.022653s ]
+[ sql ] [ SQL ] INSERT INTO `yw_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"__token__\":\"b037d9646ee56281b33e78f636c4b7cb\",\"username\":\"admin\",\"captcha\":\"5VeF\"}' , '/ywyadmin/public/index.php/admin/index/login' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36' , '0.0.0.0' , 1547182402) [ RunTime:0.040316s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:53:23+08:00 ] 0.0.0.0 GET localhost/ywyadmin/public/index.php/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003791s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.025167s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.029314s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001153s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:53:23+08:00 ] 0.0.0.0 GET localhost/ywyadmin/public/index.php/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003981s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.035024s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.032706s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001425s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001086s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:55:26+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002587s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.026553s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.024871s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001433s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:55:26+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004395s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.030724s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.041579s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002132s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001006s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:55:57+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/category?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003963s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.020578s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000938s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.022285s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001159s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_category` [ RunTime:0.025368s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.001954s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'category' LIMIT 1 [ RunTime:0.001159s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:55:58+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/category/index?sort=weigh&order=desc&_=1547182557711
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002316s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.016011s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.017134s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.003130s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_category` [ RunTime:0.016396s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.001521s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:55:58+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/category/index?sort=weigh&order=desc&_=1547182557712
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003737s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.025204s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.031121s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001945s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_category` [ RunTime:0.030907s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.001283s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:56:06+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/addon?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004971s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.028907s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001476s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.019776s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002315s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'addon' LIMIT 1 [ RunTime:0.001160s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:56:42+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/config?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025364s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.017369s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.028090s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002172s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_config` [ RunTime:0.016851s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_config` [ RunTime:0.001018s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000934s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:56:57+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/profile?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002417s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.024928s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.018579s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002111s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:56:58+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/profile/index?sort=id&order=desc&offset=0&limit=10&_=1547182617974
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008207s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.022822s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.024136s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001822s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.023804s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin_log` WHERE  `admin_id` = 1 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin_log` WHERE  `admin_id` = 1 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000747s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:59:54+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/profile?ref=addtabs&lang=en
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003942s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.021836s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.019862s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001272s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:59:54+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003112s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.025688s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000897s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.017750s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001151s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:59:54+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003683s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.028126s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.032493s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002225s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001304s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:59:55+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/profile?lang=en&addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021334s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.028319s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001607s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.029300s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001994s ]
+---------------------------------------------------------------
+[ 2019-01-11T12:59:57+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/profile/index?sort=id&order=desc&offset=0&limit=10&_=1547182795955
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003277s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.016833s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.025341s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001785s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.018976s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin_log` WHERE  `admin_id` = 1 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001252s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin_log` WHERE  `admin_id` = 1 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000963s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:00:06+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/profile?ref=addtabs&lang=zh-cn
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003763s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.028174s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001192s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.032353s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002180s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:00:07+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003794s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.040164s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001932s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.035848s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002420s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:00:07+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012974s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.032066s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.029546s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002016s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.002413s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:00:09+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/profile?lang=zh-cn&addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031799s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.144440s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001786s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.082243s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.003027s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:00:10+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/profile/index?sort=id&order=desc&offset=0&limit=10&_=1547182809892
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011954s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.030135s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.034040s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001849s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.031808s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin_log` WHERE  `admin_id` = 1 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001032s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin_log` WHERE  `admin_id` = 1 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001229s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:01:38+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002219s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.016239s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.018277s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001161s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:01:39+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004302s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.038663s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.022530s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001693s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001063s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:06:31+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/index/user/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051360s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_user_token` [ RunTime:0.028171s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_user_token` WHERE  `token` = 'd8aa945b8448d8a41ab99c04b04f9e522294b47c' LIMIT 1 [ RunTime:0.001060s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:07:06+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002867s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.022995s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001632s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.026779s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.003131s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:07:06+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003766s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.031299s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.032377s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.003307s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001089s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:08:54+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003698s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.020900s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.025773s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002515s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:08:55+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003494s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.034273s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.032607s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001725s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001346s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:26:06+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/config?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.080366s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.027768s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.031501s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_config` [ RunTime:0.027552s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_config` [ RunTime:0.002219s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000971s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:26:11+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/category?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012007s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.026949s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.035227s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_category` [ RunTime:0.053714s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.001871s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'category' LIMIT 1 [ RunTime:0.001194s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:26:12+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/category/index?sort=weigh&order=desc&_=1547184371744
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003843s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.029431s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.031156s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_category` [ RunTime:0.033678s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.001271s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:26:41+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/group?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003698s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.023035s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.022282s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.024947s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001183s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000820s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'auth/group' LIMIT 1 [ RunTime:0.000731s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:26:43+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004743s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.027655s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.029131s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001920s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.021849s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000869s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.026852s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001088s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.000810s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:26:43+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547184403466
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002966s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.019380s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.020927s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002042s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.016661s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.016861s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `yw_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000520s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:26:44+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/group/index?sort=id&order=desc&_=1547184402306
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003589s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.022190s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.025399s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.030941s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001230s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,5,4) [ RunTime:0.001624s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:26:47+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/adminlog?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004501s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.030714s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001364s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.029635s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.026871s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.038694s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001298s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'auth/adminlog' LIMIT 1 [ RunTime:0.000711s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:26:47+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/adminlog/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547184407464
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002747s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.024531s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.024292s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.025065s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000708s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.025579s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001118s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.022587s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001999s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:26:59+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/adminlog/detail/ids/15?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003523s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.019902s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.024145s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.028345s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.020414s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.022958s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin_log` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.001102s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:27:05+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/group/index?sort=id&order=desc&_=1547184402307
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003798s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.028064s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.047570s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002688s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.031214s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001526s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001509s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,5,4) [ RunTime:0.001361s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:27:06+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/rule?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010707s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.028900s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.025571s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001629s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.002073s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'auth/rule' LIMIT 1 [ RunTime:0.001017s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:27:07+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1547184426799
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004330s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.027385s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001506s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.023313s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001318s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.003430s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:27:33+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/adminlog/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547184407465
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002966s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.022487s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.031479s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.026504s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.020139s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000714s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.024126s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001421s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:28:18+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/adminlog/index?sort=id&order=desc&filter=%7B%7D&op=%7B%7D&_=1547184407466
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003464s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.019011s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.017645s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001809s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.018326s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.026917s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001224s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000850s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.019099s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001273s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC [ RunTime:0.001701s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:28:18+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/adminlog/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547184407467
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012563s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.035338s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.032986s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.029646s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.069913s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.028865s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001119s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:29:00+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/adminlog/index?sort=id&order=desc&filter=%7B%7D&op=%7B%7D&_=1547184407468
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002729s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.020036s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001077s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.023785s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.030361s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.019946s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.020376s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000713s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC [ RunTime:0.000804s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:29:01+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/adminlog/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547184407469
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005532s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.059427s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.031800s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.031494s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.027750s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001046s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001037s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.029703s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.005032s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:37:07+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/config?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029234s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.023321s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.020153s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_config` [ RunTime:0.020943s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_config` [ RunTime:0.000949s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000734s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:37:29+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/category?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003798s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.025376s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002043s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.036682s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_category` [ RunTime:0.028856s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.001877s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'category' LIMIT 1 [ RunTime:0.000957s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:37:30+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/category/index?sort=weigh&order=desc&_=1547185050118
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009030s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.027433s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.033326s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_category` [ RunTime:0.047051s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.002409s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:44:36+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1547184426800
+[ sql ] [ DB ] CONNECT:[ UseTime:0.051580s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.023987s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.032879s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002571s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.002896s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:45:04+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/attachment?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004141s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.027473s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001691s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.019902s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.003583s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'general/attachment' LIMIT 1 [ RunTime:0.001072s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:45:05+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/attachment/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547185504714
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004647s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.031645s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.044897s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001689s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_attachment` [ RunTime:0.032308s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_attachment` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_attachment` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001055s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:45:12+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/addon?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016553s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.030819s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002174s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.029246s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001894s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'addon' LIMIT 1 [ RunTime:0.001265s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:46:13+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/attachment/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547185504715
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003734s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.023690s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.027552s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_attachment` [ RunTime:0.036553s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_attachment` ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_attachment` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000895s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:46:18+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/category/index?sort=weigh&order=desc&_=1547185050119
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003467s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.027169s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.055532s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_category` [ RunTime:0.075328s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.003704s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:46:21+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1547184426801
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008725s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.029759s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.044257s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002945s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.001806s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:46:23+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/adminlog/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547184407470
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003859s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.069576s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.026889s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002024s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.028716s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.036087s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000995s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.028739s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin_log` WHERE  `admin_id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001741s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:46:24+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547184403467
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009439s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.030989s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001784s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.033946s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002606s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.030260s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.030782s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000833s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000945s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `yw_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001265s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001622s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:46:26+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/group/index?sort=id&order=desc&_=1547184402308
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006209s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.048193s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.040842s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.028834s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001305s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,5,4) [ RunTime:0.001203s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:46:35+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/profile?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004667s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.030013s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.043546s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001483s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:46:35+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/profile/index?sort=id&order=desc&offset=0&limit=10&_=1547185595351
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003467s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.022636s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.025481s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin_log` [ RunTime:0.038683s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin_log` WHERE  `admin_id` = 1 ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_admin_log` WHERE  `admin_id` = 1 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001575s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:46:54+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009763s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.039163s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.037215s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002886s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001418s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:47:05+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002726s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.021375s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001062s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.021177s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002256s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001102s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:47:14+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002800s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.024864s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.027044s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001680s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:47:15+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006088s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.067398s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002188s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.026513s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002032s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000923s ]
+---------------------------------------------------------------
+[ 2019-01-11T13:50:21+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/config?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003256s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.021933s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.027473s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002123s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_config` [ RunTime:0.017878s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_config` [ RunTime:0.001014s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000884s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:15:03+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033013s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.017781s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.030254s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002084s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.025989s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.031424s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001319s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001230s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.001870s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:15:05+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547187304383
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003430s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.024385s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001237s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.028589s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001752s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.024017s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.019730s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001055s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001325s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `yw_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.001074s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000761s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:15:17+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin/add?dialog=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009164s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.029929s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.090100s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001658s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.035918s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.028611s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001269s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:15:29+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003961s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.026455s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.033128s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001601s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.025971s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.027306s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001050s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.001153s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:15:30+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547187329650
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003053s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.055979s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.030270s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001845s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.027431s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000988s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.035148s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001181s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001326s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001179s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `yw_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000954s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000762s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:33:49+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.084888s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.029917s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.033152s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002042s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:33:49+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003526s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.019075s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.020613s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001604s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:33:49+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006614s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.031783s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001493s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.030137s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001818s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001974s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:33:50+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016034s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.051133s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000916s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.057476s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.015003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.027741s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.038020s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001203s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001115s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.001051s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:33:51+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547188431064
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004419s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.026878s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.025612s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.031560s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.024743s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001482s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001126s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `yw_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000999s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:34:18+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.124855s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.038032s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001680s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.029629s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.003471s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:34:18+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010390s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.031343s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.040475s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.003437s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:34:19+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004660s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.024546s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001117s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.032040s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001985s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.033437s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.030329s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001058s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001096s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.001300s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:34:19+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004479s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.023448s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.030821s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001991s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001046s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:34:20+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547188459470
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004631s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.030058s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.022914s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001905s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.021878s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.022675s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.000953s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `yw_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000886s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:35:24+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004503s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.032846s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.027508s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002169s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:35:24+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022105s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.026989s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.034109s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001918s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:35:25+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003642s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.040523s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001898s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.033140s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002727s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.054552s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.001005s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.030177s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001519s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001201s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.001057s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:35:25+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003612s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.027191s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001153s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.054626s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001803s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001013s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:35:27+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547188525856
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004570s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.034570s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.033415s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002079s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.063278s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.003008s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.033718s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001465s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001491s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `yw_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.001600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000855s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:35:27+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547188525857
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005176s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.026659s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001028s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.029106s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.034542s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.000971s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.033979s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001422s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001838s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001093s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `yw_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.001191s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000906s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:41:19+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/rule?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.035053s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.024342s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.035638s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002395s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.003667s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'auth/rule' LIMIT 1 [ RunTime:0.001245s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:41:20+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1547188879993
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003675s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.019613s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.017482s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001426s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.001826s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:41:35+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/category?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005342s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.027211s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002120s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.029599s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001124s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_category` [ RunTime:0.029215s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.005195s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'category' LIMIT 1 [ RunTime:0.001127s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:41:36+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/category/index?sort=weigh&order=desc&_=1547188895797
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002381s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.020951s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.020015s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001905s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_category` [ RunTime:0.024452s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_category` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.001058s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:41:43+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/general/config?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002485s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.016890s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.021818s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_config` [ RunTime:0.019779s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_config` [ RunTime:0.001254s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'general/config' LIMIT 1 [ RunTime:0.000823s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:41:51+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1547188879994
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014682s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.029935s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.036325s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002387s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.003599s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:41:53+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/rule/index?sort=weigh&order=desc&_=1547188879995
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003143s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.022824s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.048647s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002191s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_rule` ORDER BY `weigh` DESC [ RunTime:0.003022s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:41:55+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1547188525858
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004015s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.027726s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.038258s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002814s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_admin` [ RunTime:0.062416s ]
+[ sql ] [ SQL ] SELECT `id` FROM `yw_admin` [ RunTime:0.001043s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group` [ RunTime:0.032013s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `status` = 'normal' [ RunTime:0.001062s ]
+[ sql ] [ SQL ] SELECT * FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001036s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `yw_auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001263s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `yw_auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.001158s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.001985s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `yw_admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001192s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:43:49+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003808s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.028616s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.036309s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002228s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:43:50+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005074s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.038865s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.028371s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001539s ]
+---------------------------------------------------------------
+[ 2019-01-11T14:43:50+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003349s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_group_access` [ RunTime:0.033635s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `yw_auth_group_access` `aga` LEFT JOIN `yw_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yw_auth_rule` [ RunTime:0.030729s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `yw_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001898s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `yw_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001099s ]

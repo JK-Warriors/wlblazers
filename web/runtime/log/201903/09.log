@@ -1,0 +1,82 @@
+---------------------------------------------------------------
+[ 2019-03-09T21:20:51+08:00 ] 0.0.0.0 POST localhost/easyadmin/public/index.php/admin/index/login?url=%2Feasyadmin%2Fpublic%2Findex.php%2Fadmin%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.146731s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.106050s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/easyadmin\\/public\\/index.php\\/admin\\/dashboard?ref=addtabs\",\"__token__\":\"44d4135c20c8c12b8e1389d0a1903a72\",\"username\":\"admin\",\"captcha\":\"2y3v\"}' , '/easyadmin/public/index.php/admin/index/login?url=%2Feasyadmin%2Fpublic%2Findex.php%2Fadmin%2Fdashboard%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36' , '0.0.0.0' , 1552137651) [ RunTime:0.048013s ]
+---------------------------------------------------------------
+[ 2019-03-09T21:21:01+08:00 ] 0.0.0.0 POST localhost/easyadmin/public/index.php/admin/index/login?url=%2Feasyadmin%2Fpublic%2Findex.php%2Fadmin%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004724s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.120530s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001811s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `loginfailure`=1,`updatetime`=1552137661  WHERE  `id` = 1 [ RunTime:0.067078s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.030113s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/easyadmin\\/public\\/index.php\\/admin\\/dashboard?ref=addtabs\",\"__token__\":\"a1a54a0018332b64672e506507ccbc8f\",\"username\":\"admin\",\"captcha\":\"b5a7\"}' , '/easyadmin/public/index.php/admin/index/login?url=%2Feasyadmin%2Fpublic%2Findex.php%2Fadmin%2Fdashboard%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36' , '0.0.0.0' , 1552137661) [ RunTime:0.052681s ]
+---------------------------------------------------------------
+[ 2019-03-09T21:21:08+08:00 ] 0.0.0.0 POST localhost/easyadmin/public/index.php/admin/index/login?url=%2Feasyadmin%2Fpublic%2Findex.php%2Fadmin%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002564s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.030698s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/easyadmin\\/public\\/index.php\\/admin\\/dashboard?ref=addtabs\",\"__token__\":\"15cc657d9b7e192eec659c0518054163\",\"username\":\"admin\",\"captcha\":\"b5a7\"}' , '/easyadmin/public/index.php/admin/index/login?url=%2Feasyadmin%2Fpublic%2Findex.php%2Fadmin%2Fdashboard%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36' , '0.0.0.0' , 1552137668) [ RunTime:0.041646s ]
+---------------------------------------------------------------
+[ 2019-03-09T21:21:15+08:00 ] 0.0.0.0 POST localhost/easyadmin/public/index.php/admin/index/login?url=%2Feasyadmin%2Fpublic%2Findex.php%2Fadmin%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003090s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.029635s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '{\"url\":\"\\/easyadmin\\/public\\/index.php\\/admin\\/dashboard?ref=addtabs\",\"__token__\":\"4bcf39003df2af4c557558e8e3a966f5\",\"username\":\"admin\",\"captcha\":\"85a7\"}' , '/easyadmin/public/index.php/admin/index/login?url=%2Feasyadmin%2Fpublic%2Findex.php%2Fadmin%2Fdashboard%3Fref%3Daddtabs' , 0 , 'Unknown' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36' , '0.0.0.0' , 1552137675) [ RunTime:0.033163s ]
+---------------------------------------------------------------
+[ 2019-03-09T21:21:23+08:00 ] 0.0.0.0 POST localhost/easyadmin/public/index.php/admin/index/login?url=%2Feasyadmin%2Fpublic%2Findex.php%2Fadmin%2Fdashboard%3Fref%3Daddtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003061s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.029436s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001114s ]
+[ sql ] [ SQL ] UPDATE `admin`  SET `loginfailure`=0,`logintime`=1552137683,`token`='7d1cc921-c5db-4f7c-8c08-b85d0b0f4738',`updatetime`=1552137683  WHERE  `id` = 1 [ RunTime:0.049345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.028929s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/easyadmin\\/public\\/index.php\\/admin\\/dashboard?ref=addtabs\",\"__token__\":\"5985ef38d6e1696737ccb59676227d34\",\"username\":\"admin\",\"captcha\":\"qals\"}' , '/easyadmin/public/index.php/admin/index/login?url=%2Feasyadmin%2Fpublic%2Findex.php%2Fadmin%2Fdashboard%3Fref%3Daddtabs' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36' , '0.0.0.0' , 1552137683) [ RunTime:0.032347s ]
+---------------------------------------------------------------
+[ 2019-03-09T21:21:24+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/index.php/admin/dashboard?ref=addtabs
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003491s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.079407s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.012901s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.050870s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002098s ]
+---------------------------------------------------------------
+[ 2019-03-09T21:21:25+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/index.php/admin/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003012s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.042597s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.003978s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.043186s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001597s ]
+---------------------------------------------------------------
+[ 2019-03-09T21:21:26+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/index.php/admin/dashboard?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003512s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.089967s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.040264s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001700s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000951s ]
+---------------------------------------------------------------
+[ 2019-03-09T21:23:52+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/index.php/admin/auth/admin?addtabs=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002766s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.018853s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.025869s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.032313s ]
+[ sql ] [ SQL ] SELECT `id` FROM `admin` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group` [ RunTime:0.049342s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `status` = 'normal' [ RunTime:0.001455s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001564s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `auth_rule` WHERE  `name` = 'auth/admin' LIMIT 1 [ RunTime:0.001303s ]
+---------------------------------------------------------------
+[ 2019-03-09T21:23:53+08:00 ] 0.0.0.0 GET localhost/easyadmin/public/index.php/admin/auth/admin/index?sort=id&order=desc&offset=0&limit=10&filter=%7B%7D&op=%7B%7D&_=1552137832564
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007127s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group_access` [ RunTime:0.039184s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `auth_group_access` `aga` LEFT JOIN `auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_rule` [ RunTime:0.052479s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `auth_rule` WHERE  `status` = 'normal' [ RunTime:0.003177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.042218s ]
+[ sql ] [ SQL ] SELECT `id` FROM `admin` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `auth_group` [ RunTime:0.036167s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `status` = 'normal' [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT * FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001202s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `auth_group` WHERE  `id` IN (1,2,3,4,5) [ RunTime:0.001027s ]
+[ sql ] [ SQL ] SELECT `uid`,`group_id` FROM `auth_group_access` WHERE  `group_id` IN (1,2,3,4,5) [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 1 [ RunTime:0.002647s ]
+[ sql ] [ SQL ] SELECT `id`,`username`,`nickname`,`avatar`,`email`,`loginfailure`,`logintime`,`createtime`,`updatetime`,`status` FROM `admin` WHERE  `id` IN (1) ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.001915s ]
